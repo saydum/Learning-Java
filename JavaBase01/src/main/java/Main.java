@@ -7,8 +7,8 @@ public class Main {
             carArrayList.add(new Car("Brand" + i, i));
         }
 
-        for (int i = 0; i <= carArrayList.size(); i++) System.out.println(carArrayList.get(i));
-
-
+        for (int i = 0; i < carArrayList.size(); i++) {
+            System.out.println(carArrayList.get(i).getBrand() + " : " + carArrayList.get(i).getNumber());
+        }
     }
 }
